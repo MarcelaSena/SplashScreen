@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.makinfunapps.funapp.SplashActivity"
+    android:orientation="vertical"
+    android:background="#008">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Minha primeira"
+        android:textColor="#098"
+        android:textSize="26sp"
+        android:gravity="bottom|center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Splach Screen"
+        android:textColor="#098"
+        android:textSize="52sp"
+        android:gravity="top|center"
+        android:layout_weight="1"/>
+
+</LinearLayout>
